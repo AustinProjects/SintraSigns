@@ -1,5 +1,6 @@
 body {
     background-color: #CF5C36;
+    text-align: center
 }
 
 #wrapper {
@@ -9,13 +10,14 @@ body {
     background-color: #EFC88B;
 }
 
-head {}
+header h3 { color:gray; }
 
 
 main {}
 
 hr {
-  border: 1px solid #aFAFAF
+  border: 1px solid #aFAFAF;
+  width:80%
 }
 
 .container {
@@ -23,4 +25,12 @@ hr {
 }
 .cont {
   margin: auto
+}
+
+ul li {
+  float: left;
+}
+
+.gallery img {
+  margin: 15px 30px
 }
