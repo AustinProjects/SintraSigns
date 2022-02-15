@@ -1,0 +1,26 @@
+body {
+    background-color: #CF5C36;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EFC88B;
+}
+
+head {}
+
+
+main {}
+
+hr {
+  border: 1px solid #aFAFAF
+}
+
+.container {
+  display: flex;
+}
+.cont {
+  margin: auto
+}
