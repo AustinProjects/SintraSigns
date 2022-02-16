@@ -56,3 +56,13 @@ ul li {
 .grid-mod h3 {
 	font-size: 120%
 }
+
+.specs a{
+	padding-right: 40px;
+	list-style-type: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: gray;
+	font-size: 130%
+}
