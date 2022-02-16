@@ -16,7 +16,8 @@ header h3 { color:gray; }
 main {}
 
 hr {
-  border: 1px solid #aFAFAF;
+  border: 1px solid white;
+	background-color: white;
   width:80%
 }
 
@@ -33,4 +34,25 @@ ul li {
 
 .gallery img {
   margin: 15px 30px
+}
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-mod {
+	flex-basis: 100%;
+	border: 2px solid white;
+	flex: 1;
+	margin: 40px 60px;
+}
+
+.grid-mod li {
+	font-size: 120%;
+	color: gray;
+	list-style-type: square;
+}
+.grid-mod h3 {
+	font-size: 120%
 }
