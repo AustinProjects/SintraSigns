@@ -1,0 +1,115 @@
+/* CSS Document */
+
+body {
+	background-color: lightblue
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #007ED9;
+	height: 100%;
+	color: white;
+}
+
+header li {
+	list-style-type: none;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+header li a:link {
+	color: white;
+}
+
+header a {
+	text-decoration: none;
+	font-size: 16pt;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	border: 2px solid white;
+	margin: 2px;
+	padding: 4px 5px;
+	background-color: 
+}
+
+header ul {
+}
+
+header {
+	padding-bottom: 15px;
+	border-bottom: 2px solid white;
+}
+
+main {
+	text-align: center;
+}
+
+.grid {
+	  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+	padding: 0 30px
+}
+
+.grid-box {
+	border: 2px solid white;
+	padding-bottom: 30px;
+}
+
+.grid li {
+	margin: 10px;
+	padding-bottom: 7px
+}
+
+.learn-more {
+	font-size: 130%;
+	color: red;
+	font-weight: bold;
+	background-color: black;
+	padding: 10px;
+}
+
+.grid-box img {
+	margin: 0 10px;	
+}
+
+.form-group *{
+	margin: 10px;
+	border-radius: 10px
+}
+
+.price {
+	font-size: 150%;
+	color: red;
+	font-weight: bold;
+}
+
+table {
+	padding: 30px
+}
+
+.grouped {
+	border: 2px solid white;
+	margin: 50px
+}
+
+.price-nav a{
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	border: 1px solid white;
+	padding: 3px;
+
+
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+.price-nav a:link {
+	color: white
+}
+
+a {
+	
+}
